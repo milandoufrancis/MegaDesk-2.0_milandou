@@ -14,7 +14,6 @@ namespace MegaDesk_2
         private double depth;
         private int numDrawers;
         public enum SurfaceMaterial {
-            
             Laminate = 1,
             Oak = 2,
             Rosewood = 3,
@@ -67,10 +66,8 @@ namespace MegaDesk_2
         }
        public SurfaceMaterial GetSurfaceMaterial()
         {
-            
             return this.surfaceMaterial;
         }
         
-
     }
 }
